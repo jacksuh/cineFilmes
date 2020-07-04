@@ -1,0 +1,57 @@
+body{
+    padding-top: 75px;
+}
+
+
+.box-shadow{
+    box-shadow: 0 2px 4 px 0 rgba(0,0,0,.05),
+                0 4px 8 px 0 rgba(0,0,0,.05);
+}   
+
+.roxo{
+    background-color: #544CC4 !important;
+}
+
+
+.nome-home{
+    color: white;
+}
+
+.login{
+    background: #323154 !important;
+    
+}
+
+.imgTamanho{
+    width: 350px;
+}
+
+
+.cordefundo{
+    background-color: #14142C;
+}
+
+#home-quote{
+    background: url('../img/bg-quote.jpg') center center;
+    background-size: cover;
+}
+
+@media(max-width: 767px){
+    #home-quote .display-4{
+        font-size:  2.5em;
+    }
+    
+    body{
+        padding-top: 0px;
+    }
+    
+    .fixed-top{
+        position: relative;
+    }
+
+}
+
+.lista-plano li`{
+    padding: 1em;
+    border-bottom: 1px solid rgba(0,0,0,.02);
+}

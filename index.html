@@ -1,0 +1,318 @@
+<html>
+    <head>
+        <title>Cine - Filmes</title>
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body class="cordefundo">
+       
+        <!-- MODAL -->
+        <div class="modal fade" id="modalLogin" tabindex="-1" role="dialog" aria-labelledby="modalLoginTitulo" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="modalLoginTitulo">Entre na Sua Conta</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                  <form>
+                  <div class="form-group">
+                    <label for="loginEmail">Email</label>
+                    <input type="email" class="form-control" id="loginEmail" >
+                  </div>
+                  <div class="form-group">
+                    <label for="loginSenha">Senha</label>
+                    <input type="password" class="form-control" id="loginEmail">
+                  </div>
+                  <button type="submit" class="btn btn-primary">Entrar na Conta</button>
+                      <small id="emailHelp" class="form-text text-muted">Esqueceu a senha?
+                          <a href="#">Clique aqui.</a></small>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+      <!-- FECHA MODAL -->
+        <nav class="navbar navbar-expand-md  navbar-light bg-light fixed-top
+       py-3 box-shadow roxo ">
+       <a href="index.html"  class="navbar-brand">
+           <img src="Logo.jpg" alt="cineFilmes">
+       </a>  
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Abrir Navegação">
+            <span class="navbar-toggler-icon"></span>
+           </button>
+           <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto ">
+               <li class="nav-item">
+                  <a class="nav-link text-white " href="planos.html">HOME</a>
+              </li>
+               <li class="nav-item ">
+                  <a class="nav-link text-white" href="contato.html">CATALOGO</a>
+              </li>
+              <li class="nav-item  ">
+                  <a class="btn btn-outline-primary ml-md-2 rounded text-white login" href=# data-toggle="modal" data-target="#modalLogin">LOGIN</a>
+              </li>
+          </ul>
+           </div>
+       </nav>
+       
+       <section>
+           <div id="carousel" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#CineFilmes" data-slide-to="0" class="active"></li>
+                <li data-target="#CineFilmes" data-slide-to="1"></li>
+                <li data-target="#CineFilmes" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="img/StarWarsVII.jpg" class="d-block w-100" alt="StarWars">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5 class="display-2">STAR WARS VII</h5>
+                    <p class="display-7">O Despertar da força</p>
+                  <a class="btn btn-outline-primary ml-md-2 rounded text-white roxo btn-lg border" href=# data-toggle="modal" data-target="#modalLogin">ASSISTA</a>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="img/vingadores.jpeg" class="d-block w-100" alt="Vingadores">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5 class="display-2">VINGADORES</h5>
+                    <p class="display-7">Ultimato</p>
+                  <a class="btn btn-outline-primary ml-md-2 rounded text-white roxo btn-lg border" href=# data-toggle="modal" data-target="#modalLogin">ASSISTA</a>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="img/mulher%20maravilha.jpg" class="d-block w-100" alt="Mulher Maravilha">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5 class="display-2">Mulher Maravilha</h5>
+                    <p class="display-7">Mulher Maravilha 1984.</p>
+                  </div>
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#CineFilmes" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+              </a>
+              <a class="carousel-control-next" href="#CineFilmes" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Próximo</span>
+              </a>
+        </div>
+        </section>
+        
+        <section class="py-4 text-center">
+           <div>
+            <h2 class="display-4 text-white py-4">LANÇAMENTOS</h2>
+            </div>
+            <div class="container">
+               
+                <div class="row media">
+                    <div class="col-xl-4 col-md-6 text-white ">
+                        <div  class="justify-content-center roxo">
+                        <img class="imgTamanho" src="img/StarWarsVII.jpg" alt="StarWars">
+                        <h3 >StarWars VII</h3>
+                          <p>Lorem Ipsum dolor sit amet, consectetur adipisicing elit. Illo, nemo nulla.</p>
+                        <a class="btn btn-outline-primary ml-md-2 rounded text-white login btn-lg border mb-3" href=# data-toggle="modal" data-target="#modalLogin">Ver Mais</a>
+                        </div>
+                    </div>
+                    
+                     <div class="col-xl-4 col-md-6 text-white">
+                       <div  class="justify-content-center roxo">
+                        <img class="imgTamanho" src="img/vingadores.jpeg" alt="vingadores">
+                        <h3>Vingadores</h3>
+                        <p>Lorem Ipsum dolor sit amet, consectetur adipisicing elit. Illo, nemo nulla.</p>
+                        <a class="btn btn-outline-primary ml-md-2 rounded text-white login btn-lg border mb-3" href=# data-toggle="modal" data-target="#modalLogin">Ver Mais</a>
+                        </div>
+                    </div>
+                    
+                     <div class="col-xl-4 col-md-6 text-white">
+                       <div class="justify-content-center roxo">
+                        <img class="imgTamanho" src="img/mulher%20maravilha.jpg" alt="Translado">
+                        <h3>Mulher Maravilha</h3>
+                        <p>Lorem Ipsum dolor sit amet, consectetur adipisicing elit. Illo, nemo nulla.</p>
+                        <a class="btn btn-outline-primary ml-md-2 rounded text-white login btn-lg border mb-3" href=# data-toggle="modal" data-target="#modalLogin">Ver Mais</a>
+                        </div>
+                    </div>
+                    
+                    <div class="col-xl-4 col-md-6 text-white py-5 ">
+                        <div  class="justify-content-center roxo">
+                        <img class="imgTamanho" src="img/StarWarsVII.jpg" alt="StarWars">
+                        <h3 >StarWars VII</h3>
+                          <p>Lorem Ipsum dolor sit amet, consectetur adipisicing elit. Illo, nemo nulla.</p>
+                        <a class="btn btn-outline-primary ml-md-2 rounded text-white login btn-lg border mb-3" href=# data-toggle="modal" data-target="#modalLogin">Ver Mais</a>
+                        </div>
+                    </div>
+                    
+                    <div class="col-xl-4 col-md-6 text-white py-5">
+                       <div  class="justify-content-center roxo">
+                        <img class="imgTamanho" src="img/vingadores.jpeg" alt="vingadores">
+                        <h3>Vingadores</h3>
+                        <p>Lorem Ipsum dolor sit amet, consectetur adipisicing elit. Illo, nemo nulla.</p>
+                        <a class="btn btn-outline-primary ml-md-2 rounded text-white login btn-lg border mb-3" href=# data-toggle="modal" data-target="#modalLogin">Ver Mais</a>
+                        </div>
+                    </div>
+                    
+                    <div class="col-xl-4 col-md-6 text-white py-5 ">
+                       <div class="justify-content-center roxo">
+                        <img class="imgTamanho" src="img/mulher%20maravilha.jpg" alt="Translado">
+                        <h3>Mulher Maravilha</h3>
+                        <p>Lorem Ipsum dolor sit amet, consectetur adipisicing elit. Illo, nemo nulla.</p>
+                        <a class="btn btn-outline-primary ml-md-2 rounded text-white login btn-lg border mb-3" href=# data-toggle="modal" data-target="#modalLogin">Ver Mais</a>
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+        </section>
+        
+        <section class="py-6 text-center">
+            <div>
+            <h2 class="display-4 text-white py-4">NOSSOS PLANOS</h2>
+            </div>
+            <div class="row">
+                    <div class="col-md mb-5">
+                       <div class="bg-light rounded p-4 box-shadow roxo text-white">
+                        <h2>Mensal</h2>
+                        
+                        <ul class="lista-plano list-unstyled">
+                            <li><span data-toggle="tooltip" data-placement="right" title="cineFilmes.">->Filmes</span></li>
+                        <div class="dropdown-divider"></div>
+                        <li>-> Suporte</li>
+                        <div class="dropdown-divider"></div>
+                        <li>-> Comunidade</li>
+                        <div class="dropdown-divider"></div>
+                        </ul>
+                    <form>
+                       </form>
+                       <div class="row align-items-center mt-4">
+                          <div class="col">
+                           <a href="inscricao.html" class="btn btn-primary btn-lg btn-block">Comprar Plano</a>
+                           </div>
+                           <div class="col">
+                            <span class="h4">R$300</span>
+                        </div>
+                           </div>
+                        </div>
+                    </div>
+                    
+                     <div class="col-md mb-5">
+                       <div class="bg-light rounded p-4 box-shadow roxo text-white">
+                        <h2>Anual<span class="badge badge-success">Novo</span></h2>
+                        <ul class="lista-plano list-unstyled">
+                        <li>-> Filmes</li>
+                        <div class="dropdown-divider"></div>
+                        <li>-> Antecipação de filmes</li>
+                        <div class="dropdown-divider"></div>
+                        <li>-> Suporte</li>
+                        <div class="dropdown-divider"></div>
+                        </ul>
+                    <form>
+                       </form>
+                       <div class="row align-items-center mt-4">
+                          <div class="col">
+                           <a href="inscricao.html" class="btn btn-primary btn-lg btn-block">Comprar Plano</a>
+                           </div>
+                           <div class="col">
+                            <span class="h4">R$1.500</span>
+                        </div>
+                           </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md mb-5">
+                       <div class="bg-light rounded p-4 box-shadow roxo text-white">
+                        <h2>Semestral<span class="badge badge-success">Novo</span></h2>
+                        <ul class="lista-plano list-unstyled">
+                        <li>-> Filmes</li>
+                        <div class="dropdown-divider"></div>
+                        <li>-> Suporte</li>
+                        <div class="dropdown-divider"></div>
+                        <li>-> Comunidade</li>
+                        <div class="dropdown-divider"></div>
+                        </ul>
+                    <form>
+                       </form>
+                       <div class="row align-items-center mt-4">
+                          <div class="col">
+                           <a href="inscricao.html" class="btn btn-primary btn-lg btn-block">Comprar Plano</a>
+                           </div>
+                           <div class="col">
+                            <span class="h4">R$900</span>
+                        </div>
+                           </div>
+                        </div>
+                    </div>
+                    </div>
+        </section>
+        
+        <section>
+             <div class="row">
+             <div class="col-md mb-5">
+                 <form>
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputPassword1">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                  </div>
+                  <div class="form-group form-check">
+                  </div>
+                  <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+                </div>
+                  <div>
+                       <img class="imgTamanho" src="img/StarWarsVII.jpg" alt="StarWars">
+                 </div>
+            </div>
+        </section>
+        
+        <footer class="bg-dark text-white">
+            <div class="container py-4">
+                <div class="row">
+                   <div class="col-md-3 col-6">
+                    <h4 class="h6">Contato</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="planos.html">cinefilmes@gmail.com</a></li>
+                        <li><a href="planos.html">(11)5000-2000</a></li>
+                        <li><a href="planos.html">(11)5000-2001</a></li>
+                    </ul>
+                    </div>
+                    <div class="col-md-3 col-6">
+                    <h4 class="h6">Nossos planos</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="local.html">Plano mensal</a></li>
+                        <li><a href="local.html">Plano semestral</a></li>
+                        <li><a href="local.html">Plano anual</a></li>
+                    </ul>
+                    </div>
+                <div class="col-md-2">
+                    <h4 class="h6">REDES SOCIAIS</h4>
+                    <ul class="list-unstyled">
+                        <li><a class="btn btn-outline-secondary btn-sm btn-block mb-2" href="#" style="max-width: 140px">Facebook</a></li>
+                        <li><a class="btn btn-outline-secondary btn-sm btn-block  mb-2" href="#" style="max-width: 140px">Twitter</a></li>
+                        <li><a class="btn btn-outline-secondary btn-sm btn-block  mb-2" href="#" style="max-width: 140px">Youtube</a></li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+            <div class="bg-primay text-center py-3">
+                <p class="mb-0">Cine Filmes. Alguns direitos reservados.</p>
+            </div>
+        
+        
+        
+        
+         <script type="text/javascript" src="js/jquery-3.2.1.slim.min.js"></script>
+        <script type="text/javascript" src="js/popper.min.js"></script>
+        <script  type="text/javascript" src="js/bootstrap.js"></script>
+        <script  type="text/javascript" src="js/app.js"></script>
+    </body>
+</html>
